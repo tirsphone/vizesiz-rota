@@ -1,0 +1,68 @@
+{
+  "name": "Vizesiz Rota",
+  "short_name": "Vizesiz Rota",
+  "description": "Türk pasaportuyla vizesiz, kimlikle, kapıda vize veya online izinle gidilebilen ülkeler: uçuş süresi, bütçe, deneyimler, festivaller ve seyahat hazırlığı.",
+  "lang": "tr",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070B16",
+  "theme_color": "#8C1736",
+  "categories": [
+    "travel"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bana öner",
+      "url": "./#planla",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Festival takvimi",
+      "url": "./#takvim",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Hazırlık listesi",
+      "url": "./#hazirlik",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
